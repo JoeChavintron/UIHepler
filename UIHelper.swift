@@ -34,9 +34,10 @@ struct DeviceOrientation {
     static func orientationForSize(_ size: CGSize) -> UIInterfaceOrientation {
         if size.width > size.height {
             return UIInterfaceOrientation.landscapeLeft
-        } else {
-            return UIInterfaceOrientation.portrait
         }
+        
+            return UIInterfaceOrientation.portrait
+        
     }
 }
 
